@@ -1,1 +1,18 @@
-ReactDOM.render(<ul><li>Thing1</li><li>Thing2</li><li>Thing3</li></ul>, document.getElementById('root'));
+// const h1 = document.createElement('h1');
+// h1.textContent = 'Hello World';
+// h1.className = "header"
+
+
+const navbar = (
+    <nav>
+        <h1>dishu</h1>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById('root'));
